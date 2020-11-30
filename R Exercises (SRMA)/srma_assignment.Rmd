@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Systematic Reviews and Meta Analyses (SRMA) Tools
 
 For this exercise, we'll be introducing "metafor()" one of many R packages that is tailor made for meta-analysis production. Using the package is simple, but some of the assumptions behind the choices you make are less straightforward. To get you started, we'll be drawing from two main examples, including the website Meta-forProject.org and a paper by Polanin, Hennessy and Tanner-Smith (2017) titled *"A Review of Meta-Analysis Packages in R."*  
-We also sugest reviewing a complimentary paper by Rubio-Aparicio et al. (2018) titled *"Guidelines for Reporting Systematic Reviews and Meta-analyses,"* which provies a great breakdown of the main steps you should consider when conducting meta-analyses. We encourage you to take deep dives into all three of these resources as you move forward with your meta-analysis work.  
+We also suggest reviewing a complimentary paper by Rubio-Aparicio et al. (2018) titled *"Guidelines for Reporting Systematic Reviews and Meta-analyses,"* which provdies a great breakdown of the main steps you should consider when conducting meta-analyses. We encourage you to take deep dives into all three of these resources as you move forward with your meta-analysis work.  
 
 Note that you'll need to update to R version: 3.5.1 or better for this exercise.  
 
@@ -267,7 +267,7 @@ In this final part of the assignment we'll use the metafor() package to create t
 
 
 ## 4.1 Funnel Plots  
-First, lets examine funnel plots. You can read about them by typing help("funnel"). Funnel plots are a form of scatterplot of treatmente effects against a measure of study percision. These plots are used primarily as a visual aid for detecting bias in your meta-analysis. A symmetric inverted funnel shape arises from a "well-behaved" dataset where publication bias is less likely.  
+First, lets examine funnel plots. You can read about them by typing help("funnel"). Funnel plots are a form of scatterplot of treatment effects against a measure of study precision. These plots are used primarily as a visual aid for detecting bias in your meta-analysis. A symmetric inverted funnel shape arises from a "well-behaved" dataset where publication bias is less likely.  
 In the example below, we'll use the data from our first run to examine how well-behaved our whole dataset was before playing with subsets. We can explore several measures including standard errors, sampling variance, and the inverse of both.
 
 *example four*
